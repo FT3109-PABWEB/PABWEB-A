@@ -2,7 +2,7 @@
  ## Repositori Praktikum Pengembangan Aplikasi Berbasis Web 🕸
 
 <p align="left">
-<a href="http://hits.dwyl.com/yysofiyan/FT3109-PABWEB/PABWEB-A"><img src="http://hits.dwyl.com/yysofiyan/FT3109-PABWEB/PABWEB-A.svg"></a>
+<a href="#"><img src="http://hits.dwyl.com/FT3109-PABWEB/PABWEB-A.svg"></a>
 <a href="#"><img src="https://img.shields.io/github/issues-pr/FT3109-PABWEB/PABWEB-A?style=flat-square"></a>
 <a href="#"><img src="https://img.shields.io/github/repo-size/FT3109-PABWEB/PABWEB-A?style=flat-square"></a>
 <a href="#"><img src="https://img.shields.io/github/commit-activity/w/FT3109-PABWEB/PABWEB-A?style=flat-square"></a>
