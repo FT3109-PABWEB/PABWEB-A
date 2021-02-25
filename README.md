@@ -14,8 +14,8 @@ Source : [E-Learning STMIK Sumedang](https://elearning.stmik-sumedang.ac.id)
 
 ## Alur Pengumpulan Tugas ke Repositori Ini
 
-0. **Fork** Repositori ini.
-1. Pada hasil _fork_ anda, Buat **Branch** dengan nama **NIM** anda.
+0. **Fork** Repositori ini
+1. Pada hasil _fork_ anda,kemudian _Clone_ & Buat **Branch** dengan nama **NIM** anda.
 2. Pada _branch_ **NIM** anda, buat direktori dengan nama **NIM** anda.
 3. Didalam direktori **NIM** anda, buat sub direktori dengan nama _**Praktikum ..**_.
    > _Contoh **Praktikum Git**.
@@ -89,7 +89,7 @@ Contoh struktur direktori sebagai *berikut:*
 
 
 <p align="center">
-<a href="#"><img src="https://img.shields.io/github/forks/FT3019-PABWEB-A/OOP-TI3D"alt="Fork"></a>
+<a href="#"><img src="https://img.shields.io/github/forks/FT3109-PABWEB/PABWEB-A?style=social"alt="Fork"></a>
 <a href="#"><img src="https://img.shields.io/github/contributors/FT3109-PABWEB/PABWEB-A"alt="Stars"></a>
 <a href="#"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
