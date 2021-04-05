@@ -11,7 +11,7 @@ require_once "config/database.php";
     <meta name="viewport" content="widht=device-widht, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Aplikasi Pengelolaan Data Siswa dengan PHP 7, MySQLi, dan Bootstrap 4">
     <meta name="keywords" content="Aplikasi Pengelolaan Data Siswa dengan PHP 7, MySQLi, dan Bootstrap 4">
-    <meta name="auothor" content="yysofiyan">
+    <meta name="auothor" content="HafidFadhil">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
