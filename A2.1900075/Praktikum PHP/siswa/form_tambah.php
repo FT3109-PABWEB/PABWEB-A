@@ -79,7 +79,7 @@
                 <input type="file" class="form-control-file mb-3" id="foto" name="foto"
                 onchange="return validasiFile()" autocomplete="off"required>
                 <div id="imagePreview"><img class="foto-preview" src="foto/default.png"/></div>
-                <div class="invalid-feedback">Foto siswa tidak boleh kosong.</div>
+                <div class="invalid-feedback">Foto siswa tidak bolehkosong.</div>
                 </div>
                 </div>
             </div>
