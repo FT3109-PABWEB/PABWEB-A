@@ -16,6 +16,12 @@
                        onKeyPress="return goodchars(event,'0123456789',this)" autocomplete="off" required>
                       <div class="invalid-feedback">NIS tidak boleh kosong.</div>
                     </div>
+                    
+                    <div class="form-group col-md-12">
+                        <label>Nama Siswa</label>
+                            <input type="text" class="form-control" name="nama" autocomplete="off" required>    
+                        <div class="invalid-feedback">Nama siswa tidak boleh kosong.</div>
+                    </div>
 
                     <div class="form-group col-md-12">
                         <label class="mb-3">Jenis Kelamin</label>
