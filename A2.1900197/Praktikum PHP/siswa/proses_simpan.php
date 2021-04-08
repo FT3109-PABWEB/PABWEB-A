@@ -45,5 +45,6 @@ if (isset($_POST['simpan'])) {
         }
     }
 }
+
 mysqli_close($db);
 ?>
