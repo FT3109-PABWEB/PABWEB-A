@@ -1,0 +1,4 @@
+Nama : Inar
+NIM  : A2.1900082
+Kelas: TI-IV A
+STMIK SUMEDANG
