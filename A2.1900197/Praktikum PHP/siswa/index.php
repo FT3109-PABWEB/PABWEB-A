@@ -1,30 +1,26 @@
 ﻿<?php
-// panggil file database.php untuk koneksi ke database
+
 require_once "config/database.php";
 ?>
 
-<!doctype html>     <!-- HTML 5 tag -->
-<html lang="en">    <!-- tag pembuka HTML -->
+<!doctype html>     
+<html lang="en">    
     <head>
         <!-- Required meta tags -->
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <meta name="description" content="Aplikasi Pengolahan Data Siswa dengan PHP 7, MySQLi, dan Bootstrap 4">
             <meta name="keywords" content="Aplikasi Pengelolaan Data Siswa dengan PHP 7, MySQLi, dan Bootstrap 4">
-            <meta name="author" content="ZidaneSaefulBudiman">
+            <meta name="author" content="zidanesaefulbudiman">
 
         <!-- favicon -->
             <link rel="shortcut icon" href="assets/img/favicon.png">
-
         <!-- Bootstrap CSS -->
             <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-4.1.3/dist/css/bootstrap.css">
-
         <!-- datepicker CSS -->
             <link rel="stylesheet" type="text/css" href="assets/plugins/datepicker/css/datepicker.min.css">
-
         <!-- Font Awesome CSS -->
             <link rel="stylesheet" type="text/css" href="assets/plugins/fontawesome-free-5.4.2-web/css/all.min.css">
-
         <!-- Custom CSS -->
             <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -68,7 +64,7 @@ require_once "config/database.php";
             </footer>
         </div>
 
-    <!-- Pemanggilan Library jQuery -->
+    
     <!-- pertama jQuery, kemudian Bootstrap js -->
         <script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="assets/plugins/bootstrap-4.1.3/dist/js/bootstrap.min.js"></script>
@@ -90,11 +86,7 @@ require_once "config/database.php";
         });
     } );
 
-    // ============================================================================================
 
-        // Validasi Form Tambah dan Form Ubah =========================================================
-    // --------------------------------------------------------------------------------------------
-    // Validasi form input tidak boleh kosong
     (function() {
         'use strict';
             window.addEventListener('load', function() {
@@ -112,7 +104,6 @@ require_once "config/database.php";
             }, false);
     })();
 
-    // Validasi karakter yang boleh diinpukan pada form
     function getkey(e) {
         if (window.event)
             return window.event.keyCode;
@@ -151,21 +142,21 @@ require_once "config/database.php";
         return false;
     }
 
-    // validasi image dan preview image sebelum upload
+    
     function validasiFile() {
         var fileInput = document.getElementById('foto');
         var filePath = fileInput.value;
         var fileSize = $('#foto')[0].files[0].size;
-        // tentukan extension yang diperbolehkan
+        
         var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
-        // Jika tipe file yang diupload tidak sesuai dengan allowedExtensions, tampilkan pesan :
+        
         if (!allowedExtensions.exec(filePath)) {
             alert('Tipe file foto tidak sesuai. Harap unggah file foto yang memiliki tipe *.jpg atau *.png');
             fileInput.value = '';
             document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="foto/default.png"/>';
             return false;
         }
-        // jika ukuran file yang diupload lebih dari sama dengan 1 Mb
+        
         else if (fileSize >= 1000000) {
             alert('Ukuran file foto lebih dari 1 Mb. Harap unggah file foto yang memiliki ukuran maksimal 1 Mb.');
             fileInput.value = '';
