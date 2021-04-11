@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_ALL ^ E_ERROR||E_NOTICE);
 
 require_once "config/database.php";
 
